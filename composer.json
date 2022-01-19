@@ -22,7 +22,6 @@
         "symfony/framework-bundle": "*",
         "symfony/console": "*",
         "symfony/event-dispatcher": "*",
-        "symfony/security": "*",
         "symfony/monolog-bundle": "*"
     },
     "require-dev": {
