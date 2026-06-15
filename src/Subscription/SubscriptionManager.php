@@ -30,6 +30,11 @@ class SubscriptionManager
     private $registry;
 
     /**
+     * @var SubscriptionRepositoryInterface
+     */
+    private $subscriptionRepository;
+
+    /**
      * @var EventDispatcherInterface
      */
     private $eventDispatcher;
