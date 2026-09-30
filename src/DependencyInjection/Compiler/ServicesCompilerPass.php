@@ -11,7 +11,7 @@ class ServicesCompilerPass implements CompilerPassInterface
     /**
      * {@inheritdoc}
      */
-    public function process(ContainerBuilder $container)
+    public function process(ContainerBuilder $container): void
     {
         $productRepository      = $container->getParameter('terox_subscription.config.product.repository');
         $subscriptionRepository = $container->getParameter('terox_subscription.config.subscription.repository');
